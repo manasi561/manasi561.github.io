@@ -1,0 +1,54 @@
+# Remote theme directory
+remote_theme: analytics-link/analytics-link.github.io
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+#-------------------------------
+# General Site Settings
+title: Manasi Pai
+description: "Hi I'm Manasi, and I'm Data Scientist with MS in Information Systems from NYU. I have 3+ years of experience in Data Science and Analytics domain. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# About Section
+subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
+location: "Jersey City, NJ"
+resume_url: /docs/Manasi_Pai_Resume.pdf
+avatar_image: /img/manasi.jpg
+
+#-------------------------------
+# Contact links
+linkedln: "https://www.linkedin.com/in/manasipai/#" # Add your linkedln handle
+github: "https://github.com/manasi561#"  # Add your github handle
+
+paginate: 6
+paginate_path: "/page/:num"
+
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      read_time: true
+      share: false
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+

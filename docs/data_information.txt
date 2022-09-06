@@ -1,0 +1,40 @@
+➢ Id - unique number assigned to each loan applicant.
+➢ Issue_d - month in which the loan was funded. 
+➢ Application_type - tells us whether the loan application is on an Individual basis or is there a co-borrower.
+
+*Numerous other variables introduce us to the monetary aspect of the data*:
+
+➢ “loan_amnt”- The listed amount of the loan applied for by the borrower.
+➢ “funded_amt”- The total amount committed to that loan at that point in time.
+➢ “installment”- The monthly payment owed by the borrower if the loan originates.
+➢ “annual_inc”- The annual income of the borrower.
+➢ “revol_bal”- Total credit revolving balance.
+➢ “revol_util” - Revolving line utilization rate or the amount of credit the borrower using relative to all available revolving credit.
+➢ “out_prncp”- Remaining outstanding principal for total amount funded.
+➢ “out_prncp_inv”- Remaining outstanding principal for a portion of the total amount funded by investors.
+➢ “total_pymnt”- Payments received to date for total amount funded.
+➢ “total_pymnt_inv”- Payments received to date for a portion of the total amount funded by investors.
+➢ “total_rec_prncp”- Principal received to date.
+➢ “total_rec_int”- Interest received to date.
+➢ “total_rec_late_fee”- Late fees received to date.
+➢ “recoveries”- post charge off gross recovery.
+➢ “collection_recovery_fee”- post charge off collection fee.
+➢ “last_pymnt_amnt”- Last payment amount received.
+➢ “tot_coll_amt”- Last total payment amount received.
+➢ “total_cur_bal”- Total current balance of all accounts.
+➢ “collections_12_mths_ex_med” - Number of collections in 12 months excluding medical collections.
+➢ Term - points out the number of payments on the loan. It can be either 36 months or 60 months.
+➢ Int_rate - the interest rate on the loan.
+➢ Grade - indicates the grade assigned to each loan by the firm. It ranges from A to G.
+➢ Emp_length is the number of years the loan applicant has worked. It ranges from 0 to 10 years. Any value below 1 year is considered as ‘>1 year’, while any work experience more than 10 years is considered as ‘<10 years’.
+➢ Home_ownership - refers to the status provided by the loan borrower regarding ownership of housing property. It is classified into 6 types- Rent, Own, Mortgage, None, Other, Any.
+➢ Verification_status - indicates if the income of the loan applicant was verified. It is
+either Verified, Source Verified or Not Verified.
+➢ Delinq_2yrs - the number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years.
+➢ Pymnt_plan tells us if a payment plan indicated by y (yes) has been made or not indicated by n (no).
+➢ Dti - the ratio of the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested loan and the borrower’s self-reported monthly income.
+➢ Open_acc - number of open credit lines in the borrower's credit file.
+➢ Total_acc - total number of credit lines currently in the borrower's credit file.
+➢ Pub_rec - signifies the number of deprecating public records of the applicant.
+➢ Acc_now_delinq - is the number of accounts on which the borrower is now delinquent.
+➢ Default_ind - helps us in knowing if the applicant was a good or bad customer.
