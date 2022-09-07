@@ -9,7 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Manasi Pai
-description: "Hi I'm Manasi, and I'm Data Scientist with MS in Information Systems from NYU. I have 3+ years of experience in Data Science and Analytics domain. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+description: "Hi I'm Manasi, and I'm Data Scientist with MS in Information Systems from NYU. I have 3+ years of experience in Data Science and Analytics domain. I love exploring data to add value to business. Please visit my LinkedIn (or download my Resume) by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
